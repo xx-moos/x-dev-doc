@@ -9,13 +9,13 @@
 	proxy = socks5://127.0.0.1:7898
 ```
 
-- Git global setup
+- 全局初始化
 ```js
 git config --global user.name "xx"
 git config --global user.email "xx@qq.com"
 ```
 
-- Create a new repository
+- 新仓库
 ```js
 git clone **.git
 cd xx
@@ -25,7 +25,7 @@ git commit -m "add README"
 git push -u origin master
 ```
 
-- Existing folder
+- 存在的文件夹，加入 git
 ```js
 cd existing_folder
 git init
@@ -35,7 +35,7 @@ git commit -m "Initial commit"
 git push -u origin master
 ```
 
-- Existing Git repository
+-  存在git的仓库，抹去原来的远程地址
 ```js
 cd xx
 git remote rename origin old-origin
@@ -87,6 +87,14 @@ registry = "https://registry.npmmirror.com"
 npm config set registry https://registry.npmmirror.com
 
 
+npm i -g yarn pnpm nrm rimraf
+
+
+nrm ls
+
+
+nrm use taobao
+
 
 // pnpm 
 
@@ -114,3 +122,7 @@ set http_proxy=http://127.0.0.1:12334
 set https_proxy=https://127.0.0.1:12334
 
 ```
+
+
+
+
