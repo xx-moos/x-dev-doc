@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   title: '开发文档',
   description: 'A VitePress Site',
+  outDir: './dist',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
