@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "我的开发文档"
-  text: "记录一些常见的命令"
+  name: "开发文档"
+  text: "记录一些常见的命令和文档"
   tagline: 开发更友好 !!!
   actions:
     - theme: brand
