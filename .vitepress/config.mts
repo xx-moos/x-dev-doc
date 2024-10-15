@@ -17,6 +17,7 @@ export default defineConfig({
         text: '开始',
         items: [
           { text: '常见命令', link: '/doc' },
+          { text: 'macos', link: '/mac' },
           // { text: 'Runtime API Examples', link: '/api-examples' },
         ],
       },
