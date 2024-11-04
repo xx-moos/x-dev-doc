@@ -9,16 +9,17 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '文档', link: '/doc' },
+      { text: '文档', link: '/pages/doc' },
     ],
 
     sidebar: [
       {
         text: '开始',
         items: [
-          { text: '常见命令', link: '/doc' },
-          { text: 'macos', link: '/mac' },
-          // { text: 'Runtime API Examples', link: '/api-examples' },
+          { text: '常见命令', link: '/pages/doc' },
+          { text: 'macos', link: '/pages/mac' },
+          { text: 'linux', link: '/pages/linux' },
+          { text: 'docker', link: '/pages/docker' },
         ],
       },
     ],

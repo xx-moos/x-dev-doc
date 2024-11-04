@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /doc
+      link: /pages/doc
     - theme: alt
       text: 待添加。。。
-      link: 
+      link:
 
 # features:
 #   - title: Feature A
@@ -22,4 +22,3 @@ hero:
 #   - title: Feature C
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
