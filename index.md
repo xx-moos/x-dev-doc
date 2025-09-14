@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /pages/doc
+      link: /pages/path
     - theme: alt
       text: 待添加。。。
       link:
